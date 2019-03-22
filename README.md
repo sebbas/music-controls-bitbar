@@ -2,7 +2,7 @@
 
 A collection of [BitBar][bitbar] plugins to control the audio playback from [cmus][cmus], [iTunes][itunes], [Spotify][spotify] or [pianobar][pianobar] in the OSX Menubar.
 
-![Music control plugins in action in the OSX menubar](music-controls-screenshot.png?=800x450 "Music control plugins in action in the OSX menubar")
+![Music control plugins in action in the OSX menubar](music-controls-screenshot.png | width=800)
 
 ## About
 
