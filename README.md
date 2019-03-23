@@ -13,17 +13,17 @@ The plugins work with [cmus][cmus], [iTunes][itunes], [Spotify][spotify] and [pi
 - like a song,
 - and view your music library and radio stations
 
-directly from from the menubar on your Mac.
+directly from the menubar on your Mac.
 
 ## Installation
 
-### Using with cmus, iTunes and/or Spotify
+### Usage with cmus, iTunes and/or Spotify
 
 Simply place the `music-controls-*.sh` scripts (those whose functionality you want to have) from this repository into your BitBar plugin directory and restart BitBar.
 
-### Using with pianobar
+### Usage with pianobar
 
-For use with pianobar the eventcmd in pianobar needs to be configured appropriately:
+To use the plugins with pianobar the eventcmd in pianobar needs to be configured appropriately:
 
 1. Make sure that your config file `~/.config/pianobar/config` contains a line pointing to the event command script.
 ```event_command = ~/.config/pianobar/eventcommand.sh```
@@ -45,6 +45,8 @@ Likewise, there is some functionality left to implement (see [Todo section](#tod
 A [pull request](https://github.com/matryer/bitbar-plugins/pull/1199) with these scripts has been opened. The merge is currently pending.
 
 ### ToDo
+
+Feel free to open pull requests or suggest new features. Pending features are:
 
 - Music library overview for iTunes and Spotify
 - Like functionality for Spotify
